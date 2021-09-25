@@ -1,0 +1,30 @@
+.boost-container {
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(257, 27%, 26%);
+    background-image: url('./images/bg-boost-desktop.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+.boost-container h2 {
+    margin: 0 0 1rem 0;
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+}
+
+.boost-container a {
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    background-color: hsl(180, 66%, 49%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 900;
+    border-radius: 10rem;
+}
+
+.boost-container a:hover {
+    background-color: hsl(180, 54%, 73%);
+}

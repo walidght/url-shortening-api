@@ -1,0 +1,112 @@
+.shortener-container {
+    padding: 0 8rem;
+}
+
+.input-container {
+    position: relative;
+    margin-top: -5rem;
+    background-color: hsl(257, 27%, 26%);
+    width: 100%;
+    height: 9rem;
+    border-radius: 15px;
+    background-image: url('./images/bg-shorten-desktop.svg');
+    background-position: center;
+    background-size: cover;
+    padding: 2.5rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-container-error::after {
+    content: 'Please add a link';
+    position: absolute;
+    bottom: 10%;
+    color: hsl(0, 87%, 67%);
+    font-style: italic;
+}
+
+.input-container-error .shortener-input-field {
+    border: hsl(0, 87%, 67%);
+    border-style: solid;
+}
+.input-container-error .shortener-input-field::placeholder {
+    color: hsl(0, 87%, 67%);
+    opacity: 0.6;
+}
+
+.shortener-container input {
+    border-radius: 10px;
+    border: none;
+    height: 100%;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.shortener-input-field {
+    width: 75%;
+    padding-left: 1.5rem;
+}
+
+.shortener-input-field:focus {
+    outline: none;
+}
+
+.input-shorten-button {
+    width: 20%;
+    background-color: hsl(180, 66%, 49%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.input-shorten-button:hover {
+    background-color: hsl(180, 58%, 73%);
+}
+.short-link-container {
+    margin-top: 1rem;
+    display: flex;
+    padding: 1rem 1.5rem;
+    justify-content: end;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+}
+
+.short-link-container p {
+    margin: 0;
+}
+
+.short-link-original {
+    position: absolute;
+    left: 1.5rem;
+}
+
+.short-link-short {
+    margin-right: 1.5rem !important;
+    color: hsl(180, 66%, 49%);
+}
+
+.shortner-copy-button {
+    padding: 0.5rem 0;
+    width: 5.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.shortner-copy-button:hover {
+    background-color: hsl(180, 58%, 73%);
+}
+
+.shortner-copy-button-clicked {
+    background-color: hsl(257, 27%, 26%);
+    cursor: text;
+}
+
+.shortner-copy-button-clicked:hover {
+    background-color: hsl(257, 27%, 26%);
+}

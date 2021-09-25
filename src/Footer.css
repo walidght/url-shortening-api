@@ -1,0 +1,28 @@
+.footer {
+    background-color: hsl(260, 8%, 14%);
+    padding: 4rem 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#footer-logo path {
+    fill: hsl(0, 0%, 100%);
+}
+
+.footer-lists {
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+
+.footer-socials {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-socials-logo:hover path {
+    fill: hsl(180, 66%, 49%);
+}
